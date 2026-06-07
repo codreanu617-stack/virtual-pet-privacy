@@ -1,19 +1,58 @@
-<!DOCTYPE html>
 <html>
 <head>
   <meta charset="UTF-8">
   <title>Privacy Policy — Browser Tamagotchi</title>
   <style>
-    body { font-family: system-ui, sans-serif; max-width: 600px; margin: 60px auto; padding: 0 20px; color: #333; }
-    h1 { font-size: 22px; }
-    p { line-height: 1.7; }
+    body { font-family: system-ui, sans-serif; max-width: 650px; margin: 60px auto; padding: 0 24px; color: #222; line-height: 1.7; }
+    h1 { font-size: 26px; margin-bottom: 4px; }
+    h2 { font-size: 16px; margin-top: 32px; color: #444; }
+    p { margin: 8px 0; }
+    .date { color: #888; font-size: 13px; margin-bottom: 32px; }
+    code { background: #f4f4f4; padding: 2px 6px; border-radius: 4px; font-size: 13px; }
   </style>
 </head>
 <body>
-  <h1>Privacy Policy — Browser Tamagotchi</h1>
-  <p>This extension does not collect, store, transmit, or share any personal data.</p>
-  <p>All pet state and user preferences are stored locally on your device using <code>chrome.storage.local</code> and never leave your browser.</p>
-  <p>No analytics, no tracking, no external servers.</p>
-  <p>Last updated: June 2026</p>
+
+  <h1>Privacy Policy</h1>
+  <p class="date">Browser Tamagotchi Extension — Last updated: June 2026</p>
+
+  <p>Thank you for using Browser Tamagotchi. This Privacy Policy explains how the extension handles your data. The short version: we collect nothing.</p>
+
+  <h2>1. Data Collection</h2>
+  <p>Browser Tamagotchi does not collect, transmit, or share any personal data. The extension has no backend server, no database, and no analytics service. Your data never leaves your device.</p>
+
+  <h2>2. Local Storage</h2>
+  <p>The extension stores the following information locally on your device using <code>chrome.storage.local</code>:</p>
+  <ul>
+    <li>Pet state (hunger, happiness, energy, level, XP, age)</li>
+    <li>Pet name chosen by the user</li>
+    <li>UI preferences (color theme, sound toggle)</li>
+    <li>List of websites where the pet is hidden</li>
+    <li>Game best score</li>
+  </ul>
+  <p>This data is stored exclusively in your browser and is never sent to any external server or third party. It can be cleared at any time by removing the extension.</p>
+
+  <h2>3. Permissions</h2>
+  <p>The extension requests the following browser permissions:</p>
+  <ul>
+    <li><strong>storage</strong> — to save pet state and preferences locally on your device</li>
+    <li><strong>alarms</strong> — to update pet stats periodically even when the popup is closed</li>
+    <li><strong>tabs</strong> — to send real-time updates across open tabs and to support the "hide on this site" feature</li>
+    <li><strong>host permissions (all URLs)</strong> — to display the pet on every webpage you visit</li>
+  </ul>
+  <p>None of these permissions are used to collect or transmit any data.</p>
+
+  <h2>4. Third-Party Services</h2>
+  <p>Browser Tamagotchi does not use any third-party analytics, advertising, or tracking services. No external scripts or APIs are loaded at runtime.</p>
+
+  <h2>5. Children's Privacy</h2>
+  <p>This extension does not knowingly collect any information from anyone, including children under the age of 13. Since no data is collected at all, there is no risk of collecting children's personal information.</p>
+
+  <h2>6. Changes to This Policy</h2>
+  <p>If this privacy policy changes in the future, the updated version will be published at this URL. Continued use of the extension after any changes constitutes acceptance of the new policy.</p>
+
+  <h2>7. Contact</h2>
+  <p>Email: codreanu617@gmail.com</p>
+
 </body>
 </html>
